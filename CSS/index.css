@@ -1,0 +1,150 @@
+@font-face {
+    font-family:bebasneue-bold;
+    src:url("../fonts/BebasNeue-Bold.otf");
+}
+@font-face {
+    font-family:bebasneue-regular;
+    src:url("../fonts/BebasNeue-Regular.otf");
+}
+@font-face {
+    font-family:bebasneue-light;
+    src:url("../fonts/BebasNeue-Light.otf");
+}
+@font-face {
+    font-family:bebasneue-thin;
+    src:url("../fonts/BebasNeue-Thin.otf");
+}
+body{
+    color:rgb(255, 255, 255);
+    background-image: url("../img/background-image.jpg");
+    background-size: cover;
+}
+.my-logo{
+    position: fixed;
+    width: 46px;
+    height: 46px;
+    top: 0px;
+    left: 0px;
+    transition: 0.5s ease;
+    border-radius: 50%;
+}
+.my-logo:hover {
+    display: block;
+    background-color: black;
+    transform:scale(1.5);
+    border-radius: 50%;
+}
+.home-logo{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+.home-logo-position{
+    text-align: middle;
+}
+.title {
+    color:rgb(138, 138, 138);
+    margin: 60px auto 20px auto;
+    padding: 20px auto;
+    width: 50%;
+    text-align: center;
+    font-family: bebasneue-regular, sans-serif;
+    font-size: 40px;
+}
+.post-body{
+    color: rgb(200, 200, 200);
+    margin: auto 7% 20px 7%;
+    padding: auto auto 10px auto;
+    font-family: 'Oswald', sans-serif;
+}
+.post-title{
+    color:rgb(138, 138, 138);
+    font-family: bebasneue-light, sans-serif;
+    font-size: 25px;
+    margin: auto 5% 20px 5%;
+    text-align:left;
+}
+
+.home-title {
+    box-sizing: border-box;
+    font-family: bebasneue-bold, sans-serif;
+    font-size: 100px;
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    text-align: center;
+    color: rgb(220, 220, 220);
+    
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 46px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:rgb(90, 90, 90);
+    opacity: 0.75;
+    box-sizing: border-box;
+}
+.bot-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:rgb(90, 90, 90);
+    opacity: 0.75;
+    box-sizing: border-box;
+}
+.a-button{
+    float: right; 
+    font-family:bebasneue-regular, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.a-logo{
+    float: left; 
+    box-sizing: border-box;
+}
+.a-logo a {
+    display: block;
+    padding: 14px 16px;
+    transition: 0.5s;
+}
+.a-button a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    transition: 0.5s;
+}
+.github-logo{
+    height: 34px;
+    width: 34px;
+}
+.linkedin-logo{
+    height: 34px;
+    width: 40px;
+}
+
+.a-button a:hover{
+    background-color: black;
+    opacity: 1;
+    font-size: 20px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}

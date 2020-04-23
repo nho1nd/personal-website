@@ -1,0 +1,32 @@
+<html ng-app="myApp">
+    <head>
+        <title>Nathaniel's Webpage</title>
+        <link href="CSS/index.css" type="text/css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="js/app.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/github.js"></script>
+        <base href="/">
+    </head>
+    <body>
+    <div class="whole-page"> 
+        <div>
+            <ul class="nav-bar">
+                <li class="a-button"><a href="#!contact">Contact</a></li>
+                <li class="a-button"><a href="#!post">Updates</a></li>
+                <li class="a-button"><a href="#!aboutme">About</a></li>
+                <li class="a-button"><a href="/">Home</a></li>
+            </ul>
+            <a href="/"> <img src="img/personal_logo.png" class="my-logo"></a>
+        </div>
+        <div ng-view></div>
+    </div>
+    <ul class="bot-bar">
+        <li class="a-logo"><a href="https://github.com/nho1nd"><img src="img/GitHub-Mark-64px.png" class="github-logo"></a></li>
+        <li class="a-logo"><a href="https://www.linkedin.com/in/nathanielho1"><img src="img/LI-In-Bug.png" class="linkedin-logo"></a></li>
+    </div>
+    </body>
+</html>
